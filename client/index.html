@@ -33,7 +33,7 @@
       <a class="navbar-brand" href="#">Zodiac App</a>
     </nav>
     <div class="container">
-      <h1>Welcome to Zodiac App</h1>
+      <br />
       <div class="row">
         <div class="col-md-4">
           <img src="/images/zodiac.webp" class="img-responsive" />
@@ -49,12 +49,15 @@
               />
             </div>
             <div class="form-group">
-              <button class="btn btn-danger" type="button">Find</button>
+              <button class="btn btn-danger" onclick="getData()" type="button">Find</button>
             </div>
           </form>
         </div>
         <div class="col-md-4">
-          <p>The result will display here</p>
+          <h2 id="name"></h2>
+          <h5 id="date"></h5>
+          <img id="img">
+          <p id="text-result"></p>
         </div>
       </div>
     </div>
